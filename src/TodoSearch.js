@@ -1,5 +1,5 @@
 function TodoSearch() {
-    return ( < input placeholder = "Cortar ceboollas " > < /input>);
-    }
+    return ( < input placeholder = "Cortar cebolla" / > );
+}
 
-    export { TodoSearch };
+export { TodoSearch };

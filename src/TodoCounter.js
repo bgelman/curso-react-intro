@@ -1,8 +1,8 @@
 function TodoCounter({ total, completed }) {
-    return ( < h1 >
+    return ( < h2 >
         Has completado { completed }
         de { total }
-        TODOS < /h1>
+        TODOS < /h2>
     );
 }
 
