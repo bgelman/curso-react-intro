@@ -1,5 +1,6 @@
 function TodoList({ children }) {
-    return ( < ul > { children } < /ul>);
-    }
+    return ( <
+        div className = "container" > < ul > { children } < /ul></div > );
+}
 
-    export { TodoList };
+export { TodoList };

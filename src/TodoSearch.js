@@ -1,5 +1,17 @@
-function TodoSearch() {
-    return ( < input placeholder = "Cortar cebolla" / > );
-}
+import Form from 'react-bootstrap/Form';
 
-export { TodoSearch };
+
+function TodoSearch() {
+    return ( <
+        div className = "row" >
+        <
+        input placeholder = "Cortar cebolla" / > < /div>);
+
+        // eslint-disable-next-line no-unreachable
+        <
+        Form.Control size = "lg"
+        type = "text"
+        placeholder = "Large text" / >
+    }
+
+    export { TodoSearch };
